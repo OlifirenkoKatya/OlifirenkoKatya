@@ -1,0 +1,73 @@
+83 + apple
+const pipe = (...fns) => x => fns.reduce((v, f) => f(v), x);
+
+const getRandomElement = array => array[getRandomIndex(array)];
+43 / 13,48,55,25,50,64,47,53,63,89,34,74
+const mapObject = (obj, fn) => Object.fromEntries(Object.entries(obj).map(([key, value]) => [key, fn(value)]));
+64,99,48,37,67,74,67 / banana
+const reverseString = str => str.split("").reverse().join("");
+apple
+
+const capitalizeFirstLetter = str => str.charAt(0).toUpperCase() + str.slice(1);
+orange
+
+let result = performOperation(getRandomNumber(), getRandomNumber());
+// This is a comment
+const reverseString = str => str.split("").reverse().join("");
+orange + 3
+for (let i = 0; i < getRandomNumber(); i++) { console.log(getRandomString()); }
+grape * true
+
+const getUniqueValues = array => [...new Set(array)];
+
+const memoize = fn => { const cache = new Map(); return (...args) => { const key = JSON.stringify(args); return cache.has(key) ? cache.get(key) : (cache.set(key, fn(...args)), cache.get(key)); }; };
+
+const pipe = (...fns) => x => fns.reduce((v, f) => f(v), x);
+apple
+
+const greet = name => `Hello, ${name}!`;
+function addNumbers(a, b) { return a + b; }
+grape
+
+
+const mapObject = (obj, fn) => Object.fromEntries(Object.entries(obj).map(([key, value]) => [key, fn(value)]));
+const formatCurrency = (amount, currency = "USD") => new Intl.NumberFormat("en-US", { style: "currency", currency }).format(amount);
+const findSmallestNumber = numbers => Math.min(...numbers);
+true - true
+const truncateString = (str, maxLength) => str.length > maxLength ? `${str.slice(0, maxLength)}...` : str;
+
+const generateUUID = () => `${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}`;
+const calculateFactorial = n => n === 0 ? 1 : n * calculateFactorial(n - 1);
+29 * 55
+const formatCurrency = (amount, currency = "USD") => new Intl.NumberFormat("en-US", { style: "currency", currency }).format(amount);
+
+const calculateFactorial = n => n === 0 ? 1 : n * calculateFactorial(n - 1);
+38 * orange
+const curry = (fn, arity = fn.length, ...args) => arity <= args.length ? fn(...args) : curry.bind(null, fn, arity, ...args);
+const camelCaseToSnakeCase = str => str.replace(/[A-Z]/g, letter => `_${letter.toLowerCase()}`);
+const reverseString = str => str.split("").reverse().join("");
+
+74 * true
+const getRandomHexColor = () => `#${Math.floor(Math.random() * 16777215).toString(16)}`;
+const checkAnagram = (str1, str2) => str1.split("").sort().join("") === str2.split("").sort().join("");
+35,68,27,82,95,43,56,60 + 78
+const isPalindrome = str => str === str.split("").reverse().join("");
+const divide = (a, b) => (b !== 0 ? a / b : "Cannot divide by zero");
+const generateUUID = () => `${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}`;
+
+kiwi - 53
+const sumAllNumbers = (...numbers) => numbers.reduce((sum, num) => sum + num, 0);
+const pipe = (...fns) => x => fns.reduce((v, f) => f(v), x);
+const findAverage = numbers => numbers.reduce((sum, num) => sum + num, 0) / numbers.length;
+59,33,70,30,79,8,20,54,88,43,6,87,32,79,44,25,41,74,69,89,87,97,44,13,88,83,65,42,49,97,93,14,74,10,53 - 70
+const flattenArray = array => array.reduce((flat, current) => flat.concat(Array.isArray(current) ? flattenArray(current) : current), []);
+apple - 93,0,71,32,12,25,39,22,9,14,22,59,83,75,67,11,91,96,26,70,6,63,72,13,50,11,27,30,49,9,18,66,43,1,30,88,79,47,41,11,14,6,66,77,38,56,28,26,91,76,57,59,92,60,98,96,72,10,25,19,48,78,20,53,44,54,5,1,94,77,80,76,15,26,1,54,18,96,62,33,35,59,45,30,45,1,58,82,47,68,0,63,11
+const sumAllNumbers = (...numbers) => numbers.reduce((sum, num) => sum + num, 0);
+const greet = name => `Hello, ${name}!`;
+
+orange
+
+const curry = (fn, arity = fn.length, ...args) => arity <= args.length ? fn(...args) : curry.bind(null, fn, arity, ...args);
+43,52,98,97,61,48,72,5,5,92 - apple
+
+const capitalizeString = str => str.toUpperCase();
