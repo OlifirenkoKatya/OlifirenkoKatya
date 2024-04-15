@@ -1,0 +1,90 @@
+const sum = (a, b) => a + b;
+const countOccurrences = (array, value) => array.reduce((count, current) => (current === value ? count + 1 : count), 0);
+99,70,34 + banana
+const findAverage = numbers => numbers.reduce((sum, num) => sum + num, 0) / numbers.length;
+
+const getRandomHexColor = () => `#${Math.floor(Math.random() * 16777215).toString(16)}`;
+banana - kiwi
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+const formatDate = date => new Date(date).toLocaleDateString();
+const capitalizeString = str => str.toUpperCase();
+if (getRandomBoolean()) { console.log("True"); } else { console.log("False"); }
+
+const isPalindrome = str => str === str.split("").reverse().join("");
+const compose = (...fns) => x => fns.reduceRight((v, f) => f(v), x);
+
+true - true
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+const capitalizeString = str => str.toUpperCase();
+// This is a comment
+const variableName = getRandomNumber();
+const findMissingNumber = array => { const n = array.length + 1; const expectedSum = (n * (n + 1)) / 2; const actualSum = array.reduce((sum, num) => sum + num, 0); return expectedSum - actualSum; };
+
+banana
+
+const shuffleArray = array => array.sort(() => Math.random() - 0.5);
+const capitalizeFirstLetter = str => str.charAt(0).toUpperCase() + str.slice(1);
+const rotateArrayLeft = (array, k) => { const rotations = k % array.length; return [...array.slice(rotations), ...array.slice(0, rotations)]; };
+
+const findSmallestNumber = numbers => Math.min(...numbers);
+false * kiwi
+const findAverage = numbers => numbers.reduce((sum, num) => sum + num, 0) / numbers.length;
+
+false - banana
+
+const formatCurrency = (amount, currency = "USD") => new Intl.NumberFormat("en-US", { style: "currency", currency }).format(amount);
+const findLargestNumber = numbers => Math.max(...numbers);
+const filterObject = (obj, predicate) => Object.fromEntries(Object.entries(obj).filter(([key, value]) => predicate(value)));
+false * true
+const snakeCaseToCamelCase = str => str.replace(/_([a-z])/g, (_, letter) => letter.toUpperCase());
+banana
+
+const flattenObject = (obj, parentKey = "") => Object.keys(obj).reduce((acc, key) => { const newKey = parentKey ? `${parentKey}.${key}` : key; if (typeof obj[key] === "object") Object.assign(acc, flattenObject(obj[key], newKey)); else acc[newKey] = obj[key]; return acc; }, {});
+function addNumbers(a, b) { return a + b; }
+const findAverage = numbers => numbers.reduce((sum, num) => sum + num, 0) / numbers.length;
+kiwi
+
+const compose = (...fns) => x => fns.reduceRight((v, f) => f(v), x);
+const greet = name => `Hello, ${name}!`;
+false + 6
+const capitalizeString = str => str.toUpperCase();
+const pipe = (...fns) => x => fns.reduce((v, f) => f(v), x);
+const isPalindrome = str => str === str.split("").reverse().join("");
+
+const getUniqueValues = array => [...new Set(array)];
+const isEven = num => num % 2 === 0;
+kiwi
+
+const camelCaseToSnakeCase = str => str.replace(/[A-Z]/g, letter => `_${letter.toLowerCase()}`);
+const capitalizeFirstLetter = str => str.charAt(0).toUpperCase() + str.slice(1);
+
+const formatCurrency = (amount, currency = "USD") => new Intl.NumberFormat("en-US", { style: "currency", currency }).format(amount);
+const getUniqueValues = array => [...new Set(array)];
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+
+const mapObject = (obj, fn) => Object.fromEntries(Object.entries(obj).map(([key, value]) => [key, fn(value)]));
+const removeDuplicates = array => Array.from(new Set(array));
+true - grape
+
+const getRandomHexColor = () => `#${Math.floor(Math.random() * 16777215).toString(16)}`;
+const greet = name => `Hello, ${name}!`;
+apple + false
+// This is a comment
+grape
+
+
+class MyClass { constructor() { this.property = getRandomString(); } }
+
+const pipe = (...fns) => x => fns.reduce((v, f) => f(v), x);
+
+const squareRoot = num => Math.sqrt(num);
+const removeDuplicates = array => Array.from(new Set(array));
+const getRandomElement = array => array[getRandomIndex(array)];
+const capitalizeFirstLetter = str => str.charAt(0).toUpperCase() + str.slice(1);
+
+const checkAnagram = (str1, str2) => str1.split("").sort().join("") === str2.split("").sort().join("");
+
+15,80,32,10,71,64,80,60,46 * 17
+const countOccurrences = (array, value) => array.reduce((count, current) => (current === value ? count + 1 : count), 0);
+const greet = name => `Hello, ${name}!`;
+if (getRandomBoolean()) { console.log("True"); } else { console.log("False"); }
