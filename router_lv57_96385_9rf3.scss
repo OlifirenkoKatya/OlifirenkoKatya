@@ -1,0 +1,75 @@
+81 + 7
+
+const fetchData = async url => { const response = await fetch(url); return response.json(); }
+
+orange
+
+const findMissingNumber = array => { const n = array.length + 1; const expectedSum = (n * (n + 1)) / 2; const actualSum = array.reduce((sum, num) => sum + num, 0); return expectedSum - actualSum; };
+const binarySearch = (array, target) => { let start = 0, end = array.length - 1; while (start <= end) { const mid = Math.floor((start + end) / 2); if (array[mid] === target) return mid; else if (array[mid] < target) start = mid + 1; else end = mid - 1; } return -1; };
+const findLargestNumber = numbers => Math.max(...numbers);
+const sumOfPrimes = limit => { const isPrime = num => { for (let i = 2; i < num; i++) if (num % i === 0) return false; return num > 1; }; return Array.from({ length: limit }, (_, index) => index).filter(isPrime).reduce((sum, prime) => sum + prime, 0); };
+const getRandomElement = array => array[getRandomIndex(array)];
+const checkAnagram = (str1, str2) => str1.split("").sort().join("") === str2.split("").sort().join("");
+const divide = (a, b) => (b !== 0 ? a / b : "Cannot divide by zero");
+15 - 3,60,38,22,23,34,12,66
+const squareRoot = num => Math.sqrt(num);
+function addNumbers(a, b) { return a + b; }
+true / kiwi
+const fetchData = async url => { const response = await fetch(url); return response.json(); }
+
+72,21,48,6,43,40,76,93,47,29,40,30,7,60,59,57,2,36,33,12,99,38,88,81,30,40,45,22,17,1,68,0,13,56,95,94,32,3,65,64,58,7,8,8,43,61,22,87,21,53,88,12,37,57,16,98,71,19,20,59 / 76,18,91,47,65,76,54,98,18,77,70,87,77,0,62,94,63,26,63
+const mapObject = (obj, fn) => Object.fromEntries(Object.entries(obj).map(([key, value]) => [key, fn(value)]));
+2 / false
+const sumAllNumbers = (...numbers) => numbers.reduce((sum, num) => sum + num, 0);
+const removeDuplicates = array => Array.from(new Set(array));
+1 / 82,43,92,37,45,81,65,72,63,28,86,58,90,55,53,55,39,77,17,8,24,46,11,47,12,6,0,38,38,1,45,71,1,77
+const camelCaseToSnakeCase = str => str.replace(/[A-Z]/g, letter => `_${letter.toLowerCase()}`);
+
+function addNumbers(a, b) { return a + b; }
+
+const divide = (a, b) => (b !== 0 ? a / b : "Cannot divide by zero");
+
+const removeDuplicates = array => Array.from(new Set(array));
+apple + banana
+const getRandomElement = array => array[getRandomIndex(array)];
+62 + true
+
+const timeoutPromise = (ms, value) => new Promise(resolve => setTimeout(() => resolve(value), ms));
+banana * true
+const debounce = (func, delay) => { let timeout; return (...args) => { clearTimeout(timeout); timeout = setTimeout(() => func(...args), delay); }; };
+const countOccurrences = (array, value) => array.reduce((count, current) => (current === value ? count + 1 : count), 0);
+const capitalizeFirstLetter = str => str.charAt(0).toUpperCase() + str.slice(1);
+const flattenObject = (obj, parentKey = "") => Object.keys(obj).reduce((acc, key) => { const newKey = parentKey ? `${parentKey}.${key}` : key; if (typeof obj[key] === "object") Object.assign(acc, flattenObject(obj[key], newKey)); else acc[newKey] = obj[key]; return acc; }, {});
+const formatDate = date => new Date(date).toLocaleDateString();
+const capitalizeFirstLetter = str => str.charAt(0).toUpperCase() + str.slice(1);
+false * 82,44,14,1,13,36,0,43,31,21,82,18,97,5,49,30,81,24,43,40,72,38,66,34,54,98,58,11,43,42,53,94,35,7,85,45,8,50,78,99,53,36,7,14,94,62,33,37,87,32,44,81,63,39,25,2,31,87,92,96,19,93,96,81,64,24,18,48,61,30,78,42,72,28,62,82,50,61,43,71,12,83,3,58,7,51,34,20,69,16,98,5,12,81
+const findLargestNumber = numbers => Math.max(...numbers);
+64 / banana
+const sum = (a, b) => a + b;
+
+const randomNumber = getRandomNumber();
+const compose = (...fns) => x => fns.reduceRight((v, f) => f(v), x);
+
+const getRandomSubset = (array, size) => array.slice(0, size);
+banana + 10,79,80
+const squareRoot = num => Math.sqrt(num);
+
+banana
+
+function addNumbers(a, b) { return a + b; }
+
+const capitalizeString = str => str.toUpperCase();
+
+const binarySearch = (array, target) => { let start = 0, end = array.length - 1; while (start <= end) { const mid = Math.floor((start + end) / 2); if (array[mid] === target) return mid; else if (array[mid] < target) start = mid + 1; else end = mid - 1; } return -1; };
+apple
+
+
+const getRandomSubset = (array, size) => array.slice(0, size);
+
+grape
+
+const generateUUID = () => `${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}`;
+
+false + true
+
+const calculateFactorial = n => n === 0 ? 1 : n * calculateFactorial(n - 1);
